@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 114px;
+    background-color: rgb(229, 226, 226);
+    
+}
+#nav1{display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: absolute;
+    left: 60%;
+    transform: translate(-50%,0);
+    background-color: rgb(229, 226, 226);
+    height: 114px;
+    width: 56%;
+    font-family: Montserrat;
+    
+}
+#nav img{position: absolute;
+    left: 13%;
+    top: 3%;
+    transform: translate(-50%,0);
+
+}
+#nav1 a{text-decoration: none;
+    margin-bottom: 10px;
+    color: rgb(65, 63, 63);
+    
+}
+#nav1  a:hover{
+    color:   rgb(1, 100, 175) ;
+}
+#nav1 input{
+    position: absolute;
+    top: 20%;
+    left: 78.5%;
+    transform: translate(-50%,0);
+    margin-bottom: 50px;
+    font-size: 19px;
+    text-decoration: none;
+    border: 1px ;
+    border-radius: 2px;
+    background-color: rgb(229, 226, 226);
+    font-family: Montserrat;
+    padding: 5px;
+    border-color: rgb(216, 216, 230);
+}
+#nav1 ::placeholder{
+    opacity: 70%;
+}
+#nav1 i{ position: absolute;
+    top: 22%;
+    left: 95.5%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+    color:rgb(146, 143, 143) ;
+}
+#container{
+    width: 100%;
+    height: 440px;
+    background-color:#12486F ;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 94%);
+    background: linear-gradient(to right,white rgb(78, 153, 207),transparent );
+}
+#container img{ position: absolute;
+    margin-top: 30px;
+    left: 64.5%;
+    transform: translate(-50%,0);
+    border-radius: 4px;
+
+}
+#container #A{
+    width: 30%;
+    height: 440px;
+    position: absolute;
+    background-color:rgb(25, 90, 136);
+    left: 23.4%;
+    transform: translate(-50%,0);
+    clip-path: polygon(0 0, 97% 0, 100% 100%, 2% 100%);
+    
+ 
+}
+#container #B{margin-left: 24px;
+    margin-top: 70px;
+    font-family: Montserrat;
+    font-size: 26px;
+    color:#5DCEF6 ;
+    cursor: pointer;
+
+}
+#container #C{margin-left: 24px;
+    font-family: Montserrat;
+    margin-top: 10px;
+    color: white;
+}
+#container #D{margin-left: 24px;
+    font-family: Montserrat;
+    margin-top: 30px;
+    color: white;
+}
+#container2{
+    width: 100%;
+    height: 320px;
+    background-color: white;
+}
+#container3{
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: white;
+}
+#container3 #l{position: absolute;
+    left: 20%;
+    top: 40%;
+    transform: translate(-50%,0);
+    color:#6385C1 ;
+    font-size: 20px;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+#container3 #d{position: absolute;
+    left: 20%;
+    top: 26%;
+    transform: translate(-50%,0);
+    font-size: 24px;
+    font-family: Montserrat;
+
+}
+#container3 #u{position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+    color:#6385C1 ;
+    font-family: Montserrat;
+    cursor: pointer;
+
+}
+#container3 #S{position: absolute;
+    left: 48%;
+    top: 26%;
+    transform: translate(-50%,0);
+    font-size: 24px;
+    font-family: Montserrat;
+}
+
+#container3 #r{position: absolute;
+    left: 80%;
+    top: 40%;
+    transform: translate(-50%,0);
+    font-size: 20px;
+    color:#6385C1 ;
+    font-family: Montserrat;
+    cursor: pointer;
+
+}
+#container3 #n{position: absolute;
+    left: 72%;
+    top: 26%;
+    transform: translate(-50%,0);
+    font-size: 24px;
+    font-family: Montserrat;
+}
+#box{
+    width: 100%;
+    height: 540px;
+    background-color:#EAEAEA;
+    clip-path: polygon(0 0, 100% 4%, 100% 100%, 0% 100%);
+}
+#box #H{position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%,0);
+    font-family: Montserrat;
+    font-size: 26px;
+    color: rgb(68, 64, 64);
+
+}
+#box #X{
+    position: absolute;
+    left: 26%;
+    width: 22%;
+    height: 420px;
+    transform: translate(-50%,0);
+    border-radius: 4px;
+    margin-top: 76px;
+    
+
+}
+ #X:hover{
+     cursor: pointer;
+     background-color: white;
+ }
+ #box #Y{
+    position: absolute;
+    left: 50%;
+    width: 22%;
+    height: 420px;
+    transform: translate(-50%,0);
+    border-radius: 4px;
+    margin-top: 76px;
+
+}
+ #Y:hover{
+     cursor: pointer;
+     background-color: white;
+ }
+
+ #box #Z{ 
+    position: absolute;
+    left: 74%;
+    width: 22%;
+    height: 420px;
+    transform: translate(-50%,0);
+    border-radius: 4px;
+    margin-top: 76px;
+
+}
+ #Z:hover{
+     cursor: pointer;
+     background-color: white;
+ }
+ #X i{ position: absolute;
+    left: 50%;
+    margin-top: 10%;
+    font-size: 60px;
+    color:#0078C1 ;
+    transform: translate(-50%,0);
+
+ }
+ #X #get{ position: absolute;
+    left: 50%;
+    margin-top: 30%;
+    font-size: 30px;
+    color:#0078C1 ;
+    transform: translate(-50%,0);
+
+ }
+ #X #new{position: absolute;
+    left: 50%;
+    margin-top: 45%;
+    font-size: 24px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+
+ }
+ #X #here{
+    position: absolute;
+    left: 50%;
+    margin-top: 55%;
+    font-size: 24px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+ }
+ #X #o{position: absolute;
+    left: 50%;
+    margin-top: 74%;
+    font-size: 20px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+    color: #008DD3;
+
+ }
+ #X #f{
+    position: absolute;
+    left: 50%;
+    margin-top: 82%;
+    font-size: 20px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+    color: #008DD3;
+ }
+
+#Y i{ position: absolute;
+    left: 50%;
+    margin-top: 10%;
+    font-size: 60px;
+    color:#0078C1 ;
+    transform: translate(-50%,0);
+
+ }
+ #Y #get{ position: absolute;
+    left: 50%;
+    margin-top: 30%;
+    font-size: 30px;
+    color:#0078C1 ;
+    transform: translate(-50%,0);
+
+ }
+ #Y #new{position: absolute;
+    left: 50%;
+    margin-top: 45%;
+    font-size: 24px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+
+ }
+ #Y #here{
+    position: absolute;
+    left: 50%;
+    margin-top: 55%;
+    font-size: 24px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+ }
+ #Y #o{position: absolute;
+    left: 50%;
+    margin-top: 74%;
+    font-size: 20px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+    color: #008DD3;
+
+ }
+ #Y #f{
+    position: absolute;
+    left: 50%;
+    margin-top: 82%;
+    font-size: 20px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+    color: #008DD3;
+ }
+ #Z i{ position: absolute;
+    left: 50%;
+    margin-top: 10%;
+    font-size: 60px;
+    color:#0078C1 ;
+    transform: translate(-50%,0);
+
+ }
+ #Z #get{ position: absolute;
+    left: 50%;
+    margin-top: 30%;
+    font-size: 30px;
+    color:#0078C1 ;
+    transform: translate(-50%,0);
+
+ }
+ #Z #new{position: absolute;
+    left: 50%;
+    margin-top: 45%;
+    font-size: 24px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+
+ }
+ #Z #here{
+    position: absolute;
+    left: 50%;
+    margin-top: 55%;
+    font-size: 24px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+ }
+ #Z #o{position: absolute;
+    left: 50%;
+    margin-top: 74%;
+    font-size: 20px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+    color: #008DD3;
+
+ }
+ #Z #f{
+    position: absolute;
+    left: 50%;
+    margin-top: 82%;
+    font-size: 20px;
+    color:rgb(56, 55, 55) ;
+    transform: translate(-50%,0);
+    color: #008DD3;
+ }
+ #second{
+     width: 100%;
+     height: 540px;
+     background-color: white;
+ }
+ #second #tuto{
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: Montserrat;
+    transform: translate(-50%,0);
+    color: #080808;
+
+ }
+ #second #image{
+     width: 100%;
+    position: absolute;
+    left: 72%;
+    margin-top: 50px;
+    transform: translate(-50%,0);
+    border-radius: 4px;
+ }
+ #image img:hover{
+     cursor: pointer;
+      
+     
+ }
+ #second button{
+     position: absolute;
+     left: 50%;
+     margin-top: 258px;
+     transform: translate(-50%,0);
+     width: 12%;
+     height: 40px;
+     border-radius: 4px;
+     border: 1.1px  solid;
+     color:#73CDF3 ;
+     font-family: Montserrat;
+     background-color: white;
+     
+
+ }
+ #second  button:hover{
+    background-color:#004E84;
+    color: white;
+    cursor: pointer;
+     
+ }
+ #second #refe{
+     position: absolute;
+     left: 50%;
+     margin-top: 311px;
+     transform: translate(-50%,0);
+     font-family: Montserrat;
+     font-size: 30px;
+ }
+ #second #image2 {display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+     position: absolute;
+     left: 50%;
+     margin-top: 340px;
+     transform: translate(-50%,0);
+     font-size: 10px;
+ }
+ 
+    
+
+
